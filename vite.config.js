@@ -11,4 +11,10 @@ export default defineConfig({
       sassVariables: 'src/styles/quasar-variables.sass'
     })
   ],
+  build: {
+    outDir: 'dist',
+  },
+  server: {
+    open: true,
+  }
 });
